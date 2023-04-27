@@ -81,7 +81,7 @@ This removes the (potentially huge) cost of duplication that would be needed oth
 In the case of Roc, we are looking at converting to a persistent list as a potential optimization.
 If we need to update a list that is not unique, we would convert it to a persistent list before updating.
 From that point forward, that list would be a persistent list and no future copies should be needed.
-Assuming the list is actually shared and updated in the, this could avoid lots of repeated duplication.
+Assuming the list is actually shared and gets mutated, this could avoid lots of repeated duplication.
 
 ### Cost of conversion
 
