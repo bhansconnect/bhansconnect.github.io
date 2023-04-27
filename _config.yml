@@ -10,6 +10,10 @@ twitter_username: bhansconnect
 github_username:  bhansconnect
 
 # Site settings
+header_pages:
+  - tags.md
+  - about.md
+
 permalink: /:title/
 markdown: kramdown
 date_format: "%b %-d, %Y"
