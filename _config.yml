@@ -17,6 +17,7 @@ header_pages:
 permalink: /:title/
 markdown: kramdown
 date_format: "%b %-d, %Y"
+google_analytics: G-VQB0TWNH1Z
 # paginate: 5
 # paginate_path: "/:num/"
 # show_excerpts: true
